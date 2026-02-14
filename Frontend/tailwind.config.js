@@ -13,6 +13,7 @@ export default {
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
+			// bakki scdn se color mila sirf slack hum dale h
 			slack: {
 				DEFAULT: '#5c3B58',
 				dark: '#481349',

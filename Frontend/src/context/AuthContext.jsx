@@ -3,7 +3,7 @@ import { createContext, useEffect, useState } from 'react';
 const AuthContext = createContext();
 
 export const AuthContextProvider = ({ children }) => {
-
+// yehn pr props se children le rhe h taki is context ke andar jitne bhi components honge wo is context ko access kr ske
     const [auth, setAuth] = useState({
         user: null,
         token: null,
