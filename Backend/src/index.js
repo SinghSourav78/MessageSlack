@@ -47,6 +47,7 @@ io.on('connection', (socket) => {
   ChannelSocketHandlers(io, socket);
 });
 
+// yehn pr app.listen nhi krna kyuki hume server object chahiye socket.io ke liye, isliye createServer se server banaya hai
 server.listen(PORT, async () => {
   console.log(`Server is running on port ${PORT}`);
   connectDB();
